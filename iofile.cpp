@@ -1,6 +1,6 @@
 #include <fstream>
 #include <iostream>
-#include <fstream>
+#include <string>
 
 using namespace std;
 
@@ -13,7 +13,7 @@ int main()
     // membuat file 
     outfile.open("ContohFile.txt");
 
-    cout << ">= Mnulis file, \'q\' untuk keluar" << endl;
+    cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 
     // unlimited loop unutk menulis 
     while (true)
@@ -29,4 +29,7 @@ int main()
     }
     //selesai dalam menulis sekarang tutup filenya 
     outfile.close();
+
+    //membuat obyek input file stream dalam mode membaca
+    ifstream infile;
 }
