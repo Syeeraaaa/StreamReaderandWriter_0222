@@ -12,4 +12,12 @@ int main()
     ofstream outfile;
     // membuat file 
     outfile.open("ContohFile.txt");
+
+    cout << ">= Mnulis file, \'q\' untuk keluar" << endl;
+
+    // unlimited loop unutk menulis 
+    while (true)
+    {
+        
+    }
 }
