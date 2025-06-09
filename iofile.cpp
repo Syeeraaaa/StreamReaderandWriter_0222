@@ -10,4 +10,6 @@ int main()
 
     // membuat obyek output file stream dalam mode menulis
     ofstream outfile;
+    // membuat file 
+    outfile.open("ContohFile.txt");
 }
